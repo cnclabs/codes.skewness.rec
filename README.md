@@ -66,7 +66,7 @@ Options Description:
             Regularization term; default is 0.01
         -xi <float>
             Location parameter \xi for Skew-OPT
-        -omega <float>j
+        -omega <float>
             Scale parameter \omega for Skew-OPT
         -eta <int>
             Power parameter for Skew-OPT; this parameter must be an odd integer.
