@@ -51,30 +51,30 @@ then you will see the options description like:
 
 Options Description:
         -train <string>
-            Train the Network data
+            Train the Network data.
         -save <string>
-            Save the representation data
+            Save the representation data.
         -dimensions <int>
-            Dimension of vertex representation; default is 64
+            Dimension of vertex representation; default is 64.
         -sample_times <int>
-            Number of training samples *Million; default is 10
+            Number of training samples *Million; default is 10.
         -threads <int>
-            Number of training threads; default is 1
+            Number of training threads; default is 1.
         -alpha <float>
-            Init learning rate; default is 0.025
+            Init learning rate; default is 0.025.
         -reg <float>
-            Regularization term; default is 0.01
+            Regularization term; default is 0.01.
         -xi <float>
-            Location parameter \xi for Skew-OPT
+            Location parameter \xi for Skew-OPT; default is 10.0 .
         -omega <float>
-            Scale parameter \omega for Skew-OPT
+            Scale parameter \omega for Skew-OPT; default is 3.0 .
         -eta <int>
-            Power parameter for Skew-OPT; this parameter must be an odd integer.
+            Power parameter for Skew-OPT; this parameter must be an odd integer and default is 3.
 
 Usage:
 
 [SkewOPT]
-./SkewOPT -train input.txt -save rep/skew.rep -sample_times 10 -threads 4 -dimensions 64 -omega 11 -xi 3 -eta 3
+./SkewOPT -train net.txt -save rep/skew.rep -sample_times 10 -threads 4 -dimensions 64 -omega 11 -xi 3 -eta 3
 
 ```
 
