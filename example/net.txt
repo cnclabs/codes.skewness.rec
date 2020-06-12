@@ -1,0 +1,5 @@
+userA itemA 3
+userA itemC 5
+userB itemA 1
+userB itemB 5
+userC itemA 4
